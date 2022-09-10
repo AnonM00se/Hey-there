@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi</title>
+    <link rel="stylesheet" href="hehe.css">
+</head>
+<body>
+    <h1 id="hi">Crush mo ba ako?</h1>
+    <button class="yes" onclick="yea()" id="yeaa">Yes</button>
+    <button onclick="move()" id="bn">No</button>
+    <h1 id="one"></h1>
+
+    <script>
+        function yea() {
+            yeaa.style.opacity = 0;
+            bn.style.opacity = 0;
+            one.style.opacity = 0;
+            hi.innerHTML = "Crush din kita <3";
+        }
+        i = 1;
+        function move() {
+            bn.style.position = "absolute"
+            if(i==1) {
+                bn.style.left = "200px"
+                bn.style.top = "400px"
+                i = Math.floor((Math.random() * 12) + 1);
+            }
+            else if(i==2) {
+                bn.style.left = "300px"
+                bn.style.top = "20px"
+                i = Math.floor((Math.random() * 12) + 1);
+            }
+            else if(i==3) {
+                bn.style.left = "900px"
+                bn.style.top = "500px"
+                i = Math.floor((Math.random() * 12) + 1);
+            }
+            else if(i==4) {
+                bn.style.left = "1000px"
+                bn.style.top = "600px"
+                one.innerHTML = ":("
+                i = Math.floor((Math.random() * 12) + 1);
+            }
+            else if(i==5) {
+                bn.style.left = "1204px"
+                bn.style.top = "200px"
+                i = Math.floor((Math.random() * 12) + 1);
+            }
+            else if(i==6) {
+                bn.style.left = "100px"
+                bn.style.top = "902px"
+                i = Math.floor((Math.random() * 12) + 1);
+            }
+            else if(i==7) {
+                bn.style.left = "200px"
+                bn.style.top = "902px"
+                i = Math.floor((Math.random() * 12) + 1);
+            }
+            else if(i==8) {
+                bn.style.left = "300px"
+                bn.style.top = "850px"
+                one.innerHTML = ":(("
+                i = Math.floor((Math.random() * 12) + 1);
+            }
+            else if(i==9) {
+                bn.style.left = "435px"
+                bn.style.top = "875px"
+                one.innerHTML = ":((("
+                i = Math.floor((Math.random() * 12) + 1);
+            }
+            else if(i==10) {
+                bn.style.left = "600px"
+                bn.style.top = "600px"
+                one.innerHTML = "T-T"
+                i = Math.floor((Math.random() * 12) + 1);
+            }
+            else if(i==11) {
+                bn.style.left = "900px"
+                bn.style.top = "800px"
+                one.innerHTML = "T-T"
+                i = Math.floor((Math.random() * 12) + 1);
+            }
+            else if(i==12) {
+                bn.style.left = "1100px"
+                bn.style.top = "885px"
+                one.innerHTML = "T_T"
+                i = Math.floor((Math.random() * 12) + 1);
+            }
+        }
+    </script>
+</body>
+</html>
